@@ -77,7 +77,7 @@ a {
 
 .btn:hover {
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
-    border-radius: 28px;
+    color: var(--text-color);
     background-color: var(--background-color);
 }
 
@@ -497,7 +497,8 @@ nav li a .btn:hover {
 }
 
 .btn-submit:hover {
-    background-color: var(--primaryIconColorHover);
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 
