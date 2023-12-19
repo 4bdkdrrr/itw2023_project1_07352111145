@@ -102,8 +102,8 @@ a {
 
 .pre-title::before {
     content: "";
-    width: 20px;
-    height: 2px;
+    width: 30px;
+    height: 1px;
     background: var(--text-color);
     position: absolute;
     display: block;
