@@ -468,7 +468,7 @@ nav li a .btn:hover {
     width: 100%;
     padding: 0.75rem 1.3rem;
     font-family: "poppins", sans-serif;
-    background: var(--background-color);
+    background: #494d48;
     border: 1px solid var(--text-color);
     border-radius: 3px;
     resize: none;
