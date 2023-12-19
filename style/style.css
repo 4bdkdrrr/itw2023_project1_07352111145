@@ -467,29 +467,29 @@ nav li a .btn:hover {
 .contact-form textarea {
     width: 100%;
     padding: 0.75rem 1.3rem;
-    font-family: "Roboto", sans-serif;
-    background: var(--secondaryBackgroundColor);
-    border: 1px solid var(--borderColor);
+    font-family: "poppins", sans-serif;
+    background: var(--background-color);
+    border: 1px solid var(--text-color);
     border-radius: 3px;
     resize: none;
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-    color: #9d9fa1;
+    color: var(--text-color);
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border: 1px solid #7d7d7d;
+    border: 1px solid var(--text-color);
 }
 
 .btn-submit {
     width: 100%;
     padding: 0.75rem 1.3rem;
-    background-color: var(--primaryIconColor);
-    color: #fff;
+    background-color: var(--text-color);
+    color: var(--background-color);
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -510,7 +510,7 @@ nav li a .btn:hover {
 }
 
 .contact-item-icon {
-    background: var(--thirdBackgroundColor);
+    background: var(--text-color);
     /* padding: 0.8rem 1rem; */
     width: 53px;
     height: 53px;
@@ -546,9 +546,9 @@ footer {
 }
 
 .footer-icons svg {
-    fill: #3e3f40;
+    fill: var(--text-color);
 }
 
 .footer-icons a:hover svg {
-    fill: #000;
+    fill: var(--text-color);
 }

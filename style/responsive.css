@@ -34,7 +34,7 @@
         top: 0;
         height: 100vh;
         flex-direction: column;
-        background: var(--primaryBackgroundColor);
+        background: var(--background-color);
         border-left: 1px solid var(--borderColor);
         z-index: 9;
         transform: translateX(100%);
@@ -67,7 +67,7 @@
         height: fit-content;
     }
     .hero-right {
-        order: -1;
+        order: 11;
     }
     .hero-right img {
         width: 70%;
@@ -103,5 +103,8 @@
     }
     .pre-title {
         font-size: 0.7rem;
+    }
+    .hero-right img {
+        width: 100%;
     }
 }
