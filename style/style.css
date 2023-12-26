@@ -137,6 +137,8 @@ nav ul {
     gap: 3rem;
 }
 
+.nav ul li a {}
+
 
 /* logo */
 
@@ -237,41 +239,42 @@ nav li a .btn:hover {
 }
 
 
-/* services Section */
+/* skills Section */
 
-#services {
-    background-color: var(--background-color);
+#skills {
+    background-color: rgba(75, 77, 75, 0.99);
     padding: var(--sectionPadding);
+    display: flex;
 }
 
-.services .pre-title {
+.skills .pre-title {
     margin: 0 auto;
     color: var(--text-color);
 }
 
-.services-title {
+.skills-title {
     text-align: center;
 }
 
-.service {
+.skill {
     padding: 3rem 2rem;
     text-align: center;
     background: var(--text-color);
     border-radius: var(--item-border-radius);
 }
 
-.service h4 {
+.skill h4 {
     margin: 1.5rem 0;
     font-weight: 500;
     font-size: 1.05rem;
     color: var(--background-color);
 }
 
-.service p {
+.skill p {
     color: var(--background-color);
 }
 
-.service-icon {
+.skill-icon {
     background: var(--text-color);
     width: fit-content;
     margin: 0 auto;
@@ -279,20 +282,50 @@ nav li a .btn:hover {
     border-radius: 0.5rem;
 }
 
-.service-icon svg {
-    fill: var(--text-color);
-}
 
-.service-icon {
-    background: var(--background-color);
+/* .skill-icon svg {
+    fill: var(--text-color);
+} */
+
+
+/* .skill-icon {
+    background: var(--text-color);
     width: fit-content;
     margin: 0 auto;
     padding: 1rem 1.3rem;
     border-radius: 0.5rem;
+} */
+
+.box-skill h1 {
+    text-align: center;
 }
 
-.service-icon svg {
-    fill: var(--text-color);
+.box-skill {
+    width: 50%;
+    border-radius: 15px;
+    height: 260px;
+    padding: 20px 15px;
+    border: 2px solid var(--text-color);
+    background-color: var(--background-color);
+    box-shadow: 3px 3px 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box-skill .logo {
+    margin-top: 35px;
+    gap: 12px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+
+.box-skill img {
+    transition: all 0.3 ease-in-out;
+}
+
+.box-skill img:hover {
+    transform: scale(1.7);
 }
 
 
