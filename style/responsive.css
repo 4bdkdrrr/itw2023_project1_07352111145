@@ -107,4 +107,7 @@
     .hero-right img {
         width: 80%;
     }
+    .box-skill img {
+        height: 40px;
+    }
 }
