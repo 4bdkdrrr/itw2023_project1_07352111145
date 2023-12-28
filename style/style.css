@@ -170,7 +170,7 @@ nav ul li a:hover {
     color: #d7fdce;
     padding: 0.5rem 0.8rem;
     cursor: pointer;
-    transition: transform 1.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
     text-shadow: var(--text-color);
 }
 
@@ -214,7 +214,6 @@ nav li a .btn:hover {
     height: 720px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* We're not going to use automatic template columns, because we need to know when the columns is go below. So we can exchange the order of the element */
     align-items: center;
 }
 
@@ -242,16 +241,6 @@ nav li a .btn:hover {
     display: flex;
     justify-content: center;
 }
-
-
-/* .hero-left h3 {
-    color: var(--text-color);
-    /* margin-right: auto; */
-
-
-/* .hero-left .pre-title {
-    font-family: "pacifico" cursive;
-} */
 
 
 /* skills Section */
@@ -303,20 +292,6 @@ nav li a .btn:hover {
     padding: 1rem 1.3rem;
     border-radius: 0.5rem;
 }
-
-
-/* .skill-icon svg {
-    fill: var(--text-color);
-} */
-
-
-/* .skill-icon {
-    background: var(--text-color);
-    width: fit-content;
-    margin: 0 auto;
-    padding: 1rem 1.3rem;
-    border-radius: 0.5rem;
-} */
 
 .box-skill h1 {
     text-align: center;
@@ -414,11 +389,12 @@ nav li a .btn:hover {
 }
 
 .exp-title a svg:hover {
-    color: var(--text-color);
+    color: #494d48;
 }
 
 .exp-title a svg {
     transition: 0.2s ease-in-out;
+    color: var(--background-color);
 }
 
 .exp-tags {
@@ -489,17 +465,6 @@ nav li a .btn:hover {
 
 
 /* the dot on the line */
-
-
-/* .education .line div:before {
-    content: "";
-    width: 15px;
-    height: 15px;
-    background: var(--borderColor);
-    border-radius: 50%;
-    position: absolute;
-    left: -6px;
-} */
 
 
 /* right side of About */
@@ -592,7 +557,7 @@ nav li a .btn:hover {
 }
 
 .contact-item-icon svg {
-    fill: var(--primaryIconColor);
+    background-color: var(--text-color);
 }
 
 .contact-item-detail h4 {
